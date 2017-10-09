@@ -1,0 +1,1 @@
+java -cp ProvectusComputePiClient\target\compute-pi-rmi-client-1.0-SNAPSHOT.jar;ProvectusComputePiServerImplementation\target\compute-pi-rmi-server-implementation-1.0-SNAPSHOT.jar;ProvectusComputePiServerInterface\target\compute-pi-rmi-server-interfaces-1.0-SNAPSHOT.jar -Djava.security.policy=client.policy com.provectus.Main 5
